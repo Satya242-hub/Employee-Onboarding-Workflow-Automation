@@ -1,0 +1,4 @@
+employee_id,full_name,preferred_name,email,role,department,manager_name,start_date,office_location,laptop_type,onboarding_status,welcome_email_sent_at
+1001,Ananya Rao,Ananya,ananya.rao@example.com,Software Engineer Intern,Engineering,Vikram Shah,2026-07-14,Hyderabad (Remote-friendly),"MacBook Pro 14""",pending,
+1002,Daniel Osei,Dan,daniel.osei@example.com,Marketing Associate,Marketing,Priya Menon,2026-07-14,New York,MacBook Air,pending,
+1003,Mei Lin Tan,Mei,meilin.tan@example.com,Data Analyst,Data & Insights,Carlos Reyes,2026-07-21,Singapore,Dell XPS 15,pending,
