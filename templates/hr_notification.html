@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #1f2933; padding: 20px; }
+  table { border-collapse: collapse; width: 100%; max-width: 640px; }
+  th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid #e5e7eb; font-size: 13px; }
+  th { background: #f9fafb; color: #6b7280; text-transform: uppercase; font-size: 11px; }
+  h2 { font-size: 16px; }
+</style>
+</head>
+<body>
+  <h2>Onboarding automation run summary — {{ run_timestamp }}</h2>
+  <p>{{ count }} welcome email(s) sent and tracker updated.</p>
+  <table>
+    <tr><th>Employee</th><th>Role</th><th>Start Date</th><th>Email Sent To</th></tr>
+    {% for e in employees %}
+    <tr>
+      <td>{{ e.full_name }}</td>
+      <td>{{ e.role }}</td>
+      <td>{{ e.start_date }}</td>
+      <td>{{ e.email }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>
