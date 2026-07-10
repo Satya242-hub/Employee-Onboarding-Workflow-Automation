@@ -1,0 +1,6 @@
+jinja2>=3.1.0
+python-dotenv>=1.0.0
+
+# Optional — only needed for live mode:
+# google-api-python-client>=2.100.0
+# google-auth>=2.23.0
