@@ -1,4 +1,4 @@
-# Employee Onboarding Email Automation
+# Employee Onboarding Workflow Automation
 
 Automates the manual employee onboarding process by generating personalized welcome emails, updating the onboarding tracker, and notifying HR.
 
